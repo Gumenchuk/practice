@@ -1,0 +1,55 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+$ git branch
+* main
+  second_branch
+
+$ git log
+commit 809afbcf6fb0a1cea026bfa56b20faf1db7da55e (HEAD -> main, origin/main)
+Author: Gumenchuk <125121484+Gumenchuk@users.noreply.github.com>
+Date:   Sat Oct 14 11:12:59 2023 +0300
+
+    Create style.css
+
+commit 89215718bd2de75c977da65efbb38efb893b3c2f
+Merge: 43de57c eba2085
+Author: Gumenchuk <gumenchuk.anast@gmail.com>
+Date:   Sat Oct 14 11:09:13 2023 +0300
+
+    ggg
+
+commit 43de57c57d66d862ed3aabb2e2a281293a284dcd
+Author: Gumenchuk <gumenchuk.anast@gmail.com>
+Date:   Sat Oct 14 11:01:43 2023 +0300
+
+    Change index.html on main
+
+commit eba2085452a6112ca32363d7ba27c0de316439d3 (origin/second_branch, second_branch)
+Author: Gumenchuk <gumenchuk.anast@gmail.com>
+Date:   Sat Oct 14 10:57:56 2023 +0300
+
+    Change index.html
+
+commit 0b309738b1295e6eb83c54178ca69bc5c409e2e5
+Author: Gumenchuk <gumenchuk.anast@gmail.com>
+Date:   Sat Oct 14 10:49:40 2023 +0300
+
+    Add index.html
+
+commit 9b6768388d127e49fbc68198bb4791fedf8a4f5c
+Author: Gumenchuk <gumenchuk.anast@gmail.com>
+Date:   Sat Oct 14 10:46:31 2023 +0300
+
+    first commit
+
+$ git log --merges
+commit 89215718bd2de75c977da65efbb38efb893b3c2f
+Merge: 43de57c eba2085
+Author: Gumenchuk <gumenchuk.anast@gmail.com>
+Date:   Sat Oct 14 11:09:13 2023 +0300
+
+    ggg

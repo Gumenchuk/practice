@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.object {
+    --who: "I";
+    --action: "study";
+    --prepos: "at";
+    --name: "IT";
+    --name_sec: "Academy";
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.who:after{
+    content: var(--who);
+}
+
+.action:after{
+    content: var(--action);
+}
+
+.prepos:after{
+    content: var(--prepos);
+}
+
+.name:after{
+    content: var(--name);
+}
+
+.name_sec:after{
+    content: var(--name_sec);
+}
+
+.who, .action, .prepos, .name, .name_sec {
+    color : var(--col);
+    font-size: var(--size);
+}
+
+:root {
+    --col : fuchsia;
+    --size : 18px;
+}
